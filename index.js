@@ -10,7 +10,7 @@ app.use(express.json());
 const port = process.env.PORT || 5000;
 
 app.get('/', (req,res) => {
-    res.send('Hello gosha mobarok');
+    res.send('Hello from whippy ');
 })
 
 
@@ -29,7 +29,7 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
-    await client.connect();
+      client.connect();
     const serviceCollection = client.db('whippy-delivery').collection('services');
     const ordersCollection = client.db('whippy-delivery').collection('orders')
 
