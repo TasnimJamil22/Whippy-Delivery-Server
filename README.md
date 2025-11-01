@@ -44,5 +44,5 @@ It ensures smooth communication between client and database using **RESTful APIs
 
 ---
 
-## 📁 Folder Structure
+ 
 
